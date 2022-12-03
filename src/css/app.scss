@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Patrick+Hand&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// Tudo
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'EB Garamond', serif;
+  overflow-x: hidden;
+  background: black;
+}
+li{
+  list-style: none;
+}
+body::-webkit-scrollbar{
+  width: 0px;
+}
+:is(#Corpo1,#Corpo2,#Corpo3,#Corpo4,#Corpo5)::-webkit-scrollbar{
+  width: 0px;
+}
+#Corpo1,#Corpo2,#Corpo3,#Corpo4,#Corpo5{
+  overflow-x: hidden;
+  height: 100vh;
+}
+// Header
+#Header{
+  background: rgb(22, 21, 21);
+  text-align: center;
+  margin-top: 10px;
+}
+#Header > h1{
+  background-image: url("https://media.tenor.com/zZ4jBBtkvdYAAAAd/chainsaw-man-chainsaw.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  text-align: center;
+  font-size: 80px;
+  filter: drop-shadow(1px 1px 1px yellow);
+  margin-top: -20px;
+  font-style: italic;
+  font-variant: small-caps;
+}
+#Logo{
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  filter: drop-shadow(3px 3px 3px rgb(74, 74, 160));
+  margin-left: -140px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+#Header > a{
+  background-image: url("https://media.tenor.com/zZ4jBBtkvdYAAAAd/chainsaw-man-chainsaw.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  filter: drop-shadow(1px 1px 1px yellow);
+  text-decoration: none;
+  padding: 1em;
+  font-size: 5vh;
+  font-style: italic;
+  font-variant: small-caps;
+}
+//Api
+#Corpo1{
+  border: 1px solid transparent;
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Aesthetic-PC-Wallpaper-Desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+#AdicionarCorpo > form > input{
+  all: unset;
+  display: block;
+  text-align: center;
+  width: 40%;
+  font-size: 3vh;
+  color: white;
+  background: rgb(78, 78, 78);
+  margin: auto;
+  margin-top: 0.1vh;
+  border-radius: 2vh;
+}
+#AdicionarCorpo > form > input:nth-child(7){
+  background: #0096BB;
+  width: 10%;
+  text-shadow: 0.1vh 0.1vh 0.1vh yellow;
+  color: black;
+  cursor: pointer;
+}
+#AdicionarCorpo > form > input::placeholder{
+  text-align: center;
+  color: white;
+}
+#ItemCorpo{
+  border: 2px solid transparent;
+  background-color: rgb(41, 38, 38);
+  border-radius: 2vh;
+  width: 60%;
+  margin: auto;
+  margin-top: 0.8vh;
+  opacity: 0.9;
+}
+#ItemCorpo > span > h1{
+  color: rgb(141, 141, 8);
+  font-size: 15vh;
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  font-variant: small-caps;
+  text-shadow: 0.5vh 0.5vh 0.5vh rgb(12, 12, 104);
+}
+#ItemCorpo > span > img{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid transparent;
+  border-radius: 1vh;
+  width: 100%;
+}
+#ItemCorpo > span > p{
+  text-align: center;
+  border: 2px solid transparent;
+  color: white;
+  font-size: 2vh;
+  font-style: italic;
+  font-variant: small-caps;
+}
+#Editar > img,#Apagar > img{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 5vh;
+}
+// Api Externa
+#Corpo2{
+  background-image: url(https://images.alphacoders.com/781/781254.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: auto;
+}
+#Corpo2 > h1{
+  color:yellow;
+  text-align: center;
+  text-shadow: 0.5vh 0.5vh 0.1vh blue;
+  font-size: 15vh;
+  margin-top: 5vh;
+}
+#CardDigimon{
+  width: 25%;
+  background: rgb(12, 12, 99);
+  border: 0.7vh solid snow;
+  margin: auto;
+  margin-top: 10vh;
+  border-radius: 0px 0px 2vh 2vh;
+}
+#DigiImg{
+  width: 100%;
+  height: 50vh;
+  opacity: 0.9;
+  margin-top: -1px;
+}
+#Digiid{
+  text-align: center;
+  color: yellow;
+  font-size: 5vh;
+}
+#DigimonName{
+  color: yellow;
+  font-size: 120%;
+  text-align: center;
+  border: 2px solid transparent;
+  width: 80%;
+  margin: auto;
+}
+// Roleta
+#Corpo3{
+  background-image: url(https://images5.alphacoders.com/112/1123013.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 120%;
+  overflow-y: hidden;
+}
+#Inputs{
+  background: linear-gradient(135deg , rgba(255,255,255,0.1),rgba(255,255,255,0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  width: 50vh;
+  position: absolute;
+  margin-left: 75%;
+}
+#Inputs > input,#Inputs > input::placeholder{
+  all: unset;
+  text-align: left;
+  width: 100%;
+  color: white;
+}
+.container{
+  width: 80vh;
+  height: 80vh;
+  background-color: #ccc;
+  border-radius: 50%;
+  border: 15px solid #dde;
+  position: relative;
+  overflow: hidden;
+  transition: 5s;
+  left: 30%;
+  margin-top: 100px;
+}
+.container div{
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  clip-path: polygon(100% 0 ,50% 100% ,0 0);
+  transform: translateX(-50%);
+  transform-origin: bottom;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #fff;
+  left: 25%;
+  opacity: 0.9;
+}
+.container div > h1{
+  color: #dde;
+  width: 100%;
+  transform: rotate(85deg);
+  font-size: 1.2vh;
+}
+.container .one{
+  background-color: #1f2f8b;
+  left: 50%;
+}
+.container .two{
+  background-color: #e29015;
+  transform: rotate(45deg);
+}
+.container .three{
+  background-color: #fd0155;
+  transform: rotate(90deg);
+}
+.container .four{
+  background-color: #26ce2c;
+  transform: rotate(135deg);
+}
+.container .five{
+  background-color: #16ccfa;
+  transform: rotate(180deg);
+}
+.container .six{
+  background-color: #bb7866;
+  transform: rotate(225deg);
+}
+.container .seven{
+  background-color: #8106ad;
+  transform: rotate(270deg);
+}
+.container .eight{
+  background-color: #c71639;
+  transform: rotate(315deg);
+}
+.arrow{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}
+.arrow::before{
+  content: "\1F817";
+  font-size: 7em;
+}
+#spin{
+  position: absolute;
+  left: 10%;
+  transform: translate(-50%,-50%);
+  z-index: 10;
+  background-color: black;
+  text-transform: uppercase;
+  border: 8px solid #fff;
+  font-weight: bold;
+  font-size: 2vh;
+  color: white;
+  width: 20vh;
+  height: 20vh;
+  font-family: sans-serif;
+  border-radius: 50%;
+  margin-top: 20%;
+  cursor: pointer;
+  outline: none;
+  letter-spacing: 1px;
+}
+.container > div > input{
+  background: transparent;
+  border: transparent;
+  width: 20em;
+  transform: rotate(100deg);
+  margin-top: 50px;
+}
+// MyIframe
+#Corpo4{
+  border: 1px solid transparent;
+  background-image: url("https://images5.alphacoders.com/122/1222989.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 100%;
+}
+#Corpo4 > h1{
+  color: #0096BB;
+  text-shadow: 2px 2px 2px yellow;
+  margin-top: -15px;
+}
+#Corpo4 > input{
+  all: unset;
+  width: 100%;
+  background: gray;
+  opacity: 0.9;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+  text-shadow: 2px 2px 2px #0096BB;
+}
+#Corpo4 > input::placeholder{
+  color: white;
+}
+iframe{
+  width: 100%;
+  margin: auto;
+  height: 80vh;
+}
+// Timer
+#Corpo5{
+  background-image: url(https://images2.alphacoders.com/201/201532.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+#Corpo5 > h1{
+  font-size: 15vh;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 2px #8c27b0;
+  margin-top: 10vh;
+}
+#Relogio{
+  border: 2px solid transparent;
+  width: 100%;
+  margin-top: 5%;
+}
